@@ -1,0 +1,25 @@
+.content-chefs{
+  background-color: var(--colorPrincipal);
+  background-image: url(../images/fondo_page2.png);
+  font-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: var(--colorSecundario);
+}
+.content-chefs__title{
+  font-size: 60px;
+  font-weight: 600;
+  padding-top: 90px;
+}
+.content-chefs__text{
+  display: inline-block;
+  width: 750px;
+  font-size: 25px;
+  font-weight: 300;
+  margin-top: 20px;
+}
+.content-chefs__information{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
