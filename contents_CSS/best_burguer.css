@@ -1,0 +1,41 @@
+.content-best_burger{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-area: 'bestBurguer__img bestBurguer-info';
+  background-color: var(--colorSecundario);
+  align-items: center;
+  justify-items: center;
+  padding: 0 130px;
+  gap: 30px;
+}
+
+.bestBurguer-info{
+  grid-area: "bestBurguer-info";
+  color: var(--colorFuente);
+}
+
+.bestBurguer__img{
+  grid-area: "bestBurguer__img";
+  height: 550px;
+  width: 550px;
+}
+
+.bestBurguer__title{
+  font-size: 100px;
+}
+
+.bestBurguer__text{
+  font-size: 40px;
+  font-weight: 300;
+  margin: 70px 0px;
+}
+
+.bestBurguer__button{
+  text-decoration: none;
+  font-size: 40px;
+  padding: 10px 80px;
+  color: var(--colorSecundario);
+  background-color: var(--colorFuente);
+  border-radius: 50px;
+  font-weight: 600;
+}
